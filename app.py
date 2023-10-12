@@ -7,7 +7,7 @@ app = Flask(__name__)
 app.secret_key = "govind"  # Set your secret key for session management
 
 # Configure PostgreSQL
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://govind:PPVXW5LN6t3za1EzaY2bFR9Y9MtoOU0b@dpg-cijgtgdph6euh7jcnho0-a.singapore-postgres.render.com/govind_db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://govind:pjDQ2akfGvt8S6QNkov2BVSFdjPfudec@dpg-ckk32rj6fquc739rork0-a.singapore-postgres.render.com/govind_db_4qsf'
 db = SQLAlchemy(app)
 
 # Define the models
